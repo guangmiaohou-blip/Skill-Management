@@ -1,0 +1,60 @@
+# 风格 Skill 注册表
+# 新的小风格 Skill 必须先通过 skills/style-skill-integration/SKILL.md 校验，再写入本文件。
+# status:
+#   candidate: 待审核，可临时测试
+#   active: 已启用，可自动路由
+#   archived: 已归档，不自动调用
+
+styles:
+  - skill_id: unny-korean-minimal-beauty
+    display_name: UNNY 韩系极简美妆
+    version: 0.1.0
+    status: candidate
+    owner: WorkBuddy
+    created_at: 2026-07-10
+    updated_at: 2026-07-10
+    source_type: designer-trained-case
+    source_path: D:\skill\SKILL\出图案例\0010-UNNY测试版
+    supported_tasks:
+      - model-image-generation
+      - reference-image-regeneration
+      - reference-image-to-prompt
+    triggers:
+      - UNNY
+      - 韩系极简美妆
+      - 韩系美妆
+      - 纯白棚拍
+      - 大地色低饱和
+      - 无产品变体
+      - 清冷美妆人像
+    image_types:
+      - 模特图
+      - 人像图
+      - 风格参考图
+      - 美妆图
+    similarity_policy: ask
+    mandatory_global_rules:
+      remove_reference_text_graphics: true
+      remove_reference_products_by_default: true
+      keep_action_when_removing_products: true
+      appearance_similarity_first: true
+    recommended_models:
+      - 按平台能力选择最新图像模型
+    recommended_parameters:
+      aspect_ratio: "3:4"
+      size: "1024x1365 或平台接近尺寸"
+      quality: high
+      background: opaque
+      style_strength: 待平台确认
+    reusable_tags:
+      - style-skill
+      - unny
+      - korean-minimal-beauty
+      - beauty-editorial
+      - white-studio
+      - earth-tone
+      - no-product-variant
+      - model-image-generation
+      - reference-image-regeneration
+    review_status: 待审核
+    review_notes: 已由 0010-UNNY测试版案例生成标准风格 Skill 草案；需用户确认后才可改为 active。

@@ -1,0 +1,40 @@
+record_type: generation-run
+version: v0.1
+date: YYYY-MM-DD
+operator: 操作人
+source:
+  image_path: 待填写
+  user_request: 待填写
+classification:
+  image_type: 待填写
+  task_intent: 待填写
+  selected_skill: 待填写
+generation:
+  platform: 待定
+  model: 待定
+  aspect_ratio: 待定
+  similarity_level: 待确认
+  image_reference_weight: 中
+  style_strength: 中
+  detail_strength: 中高
+  variation_strength: 中
+model_details:
+  face_proportion_mode: 待填写
+  hair_style: 待填写
+  hair_color: 待填写
+  makeup: 待填写
+  accessories: []
+  accessory_positions: []
+prompts:
+  positive_prompt: 待填写
+  negative_prompt: 待填写
+result:
+  output_paths: []
+  manual_score: 待评分
+  success_points: []
+  failure_points: []
+knowledge_capture:
+  reusable_tags: []
+  save_to_prompt_patterns: false
+  save_to_failure_cases: false
+notes: 待填写

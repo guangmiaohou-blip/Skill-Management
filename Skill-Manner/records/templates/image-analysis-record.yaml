@@ -1,0 +1,36 @@
+record_type: image-analysis
+version: v0.1
+date: YYYY-MM-DD
+operator: 操作人
+source:
+  image_path: 待填写
+  user_request: 待填写
+classification:
+  image_type: 待填写
+  task_intent: 待填写
+  selected_skill: reference-image-to-prompt
+  confidence: 0.0
+analysis:
+  subject: 待填写
+  details: 待填写
+  pose: 待填写
+  composition: 待填写
+  lighting: 待填写
+  background: 待填写
+  material: 待填写
+  color: 待填写
+  style: 待填写
+  camera_language: 待填写
+  post_processing: 待填写
+prompts:
+  positive_prompt: 待填写
+  negative_prompt: 待填写
+recommended_parameters:
+  platform: 待定
+  model: 待定
+  aspect_ratio: 待定
+  similarity_level: 待确认
+  style_strength: 中
+  detail_strength: 中高
+reusable_tags: []
+notes: 待填写

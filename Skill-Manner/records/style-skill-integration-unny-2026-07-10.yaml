@@ -1,0 +1,25 @@
+integration_result:
+  skill_id: unny-korean-minimal-beauty
+  display_name: UNNY 韩系极简美妆
+  status: candidate
+  placed_at: skills/style-generation/unny-korean-minimal-beauty
+  registry_updated: true
+  routing_updated: false
+  source_path: D:\skill\SKILL\出图案例\0010-UNNY测试版
+  source_files:
+    - 2026-07-09.md
+    - images/high.png
+    - images/mid.png
+    - images/low.png
+  missing_fields:
+    - owner 仍沿用 WorkBuddy，后续可改为实际负责人
+    - style_strength 需要按具体平台确认
+  conflicts: []
+  corrections:
+    - 将训练案例转成标准 SKILL.md
+    - 补齐适用场景、不适用场景、负面提示词、质量检查和可复用标签
+    - 明确相似度策略为 ask，不设置默认中相似度
+    - 明确继承参考图文字图形去除、产品默认去除、样貌相似优先规则
+  next_review_action: 用户确认是否允许从 candidate 改为 active
+  review_status: 待审核
+  created_at: 2026-07-10

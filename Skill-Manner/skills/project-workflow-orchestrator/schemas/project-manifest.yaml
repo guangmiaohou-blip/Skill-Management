@@ -1,0 +1,39 @@
+project_id: project-YYYYMMDD-0001
+status: intake
+created_at: YYYY-MM-DDThh:mm:ss+08:00
+updated_at: YYYY-MM-DDThh:mm:ss+08:00
+operator: 待填写
+task:
+  raw_request: 待填写
+  image_types: []
+  intent: 待分类
+  output_count: 待确认
+  output_size: 待确认
+  similarity: 待确认
+  keep_action: 待确认
+  keep_reference_product: false
+  remove_reference_text_graphics: true
+routing:
+  selected_skills: []
+  style_skills: []
+  platform: 待确认
+  model: 待确认
+materials: []
+folders:
+  input: 00_input
+  background: 01_background
+  analysis: 02_analysis
+  prompts: 03_prompts
+  temp_outputs: 04_temp_outputs
+  selected: 05_selected
+  records: 06_records
+  knowledge_candidate: 07_knowledge_candidate
+  review: 08_review
+  shared_release: 09_shared_release
+review:
+  status: pending
+  reviewer: 待填写
+  reviewed_at: null
+release:
+  status: not-released
+  version: 0.1.0

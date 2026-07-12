@@ -1,0 +1,29 @@
+prompt_dimensions:
+  - subject
+  - person_or_product_details
+  - pose_and_action
+  - composition_and_view
+  - lighting
+  - background
+  - material
+  - color
+  - style
+  - camera_language
+  - post_processing
+  - negative_prompt
+  - reusable_tags
+
+dimension_names:
+  subject: 主体识别
+  person_or_product_details: 人物或产品细节
+  pose_and_action: 姿势动作
+  composition_and_view: 构图视角
+  lighting: 光线
+  background: 背景
+  material: 材质
+  color: 色彩
+  style: 风格
+  camera_language: 镜头语言
+  post_processing: 后期质感
+  negative_prompt: 负面提示词
+  reusable_tags: 可复用标签

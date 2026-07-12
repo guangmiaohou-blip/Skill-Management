@@ -1,0 +1,1 @@
+本目录是 001 案例的完整同步目录。案例规范.md 是候选重写稿；prompt.md、README.md、outputs 和 references 是原始来源材料。

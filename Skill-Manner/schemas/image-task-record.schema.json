@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Image Task Record",
+  "type": "object",
+  "required": ["record_type", "version", "date", "operator", "classification", "prompts"],
+  "properties": {
+    "record_type": {
+      "type": "string"
+    },
+    "version": {
+      "type": "string"
+    },
+    "date": {
+      "type": "string"
+    },
+    "operator": {
+      "type": "string"
+    },
+    "classification": {
+      "type": "object"
+    },
+    "prompts": {
+      "type": "object",
+      "required": ["positive_prompt", "negative_prompt"]
+    },
+    "recommended_parameters": {
+      "type": "object"
+    },
+    "reusable_tags": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
