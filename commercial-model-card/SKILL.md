@@ -16,11 +16,14 @@ description: Commercial model-card system for locking a recurring product model 
    - `references/models/c01/C01-身份锁定.md`
    - `references/models/c01/C01-参考图调用.md`
    - `references/models/c01/C01-可变外观层.md`
-5. 若用户要生成肤色、肤质、妆容、发型、服装等参考图，读取 `references/models/c01/C01-预设参考图规则.md`。
-6. 若用户指定或需要选择光源、棚拍、户外、柔箱、阴影、反光强弱，读取 `references/05-光源预设.md`。
-7. 若涉及产品展示，读取 `references/02-产品展示规则.md`。
-8. 组装提示词前读取 `references/03-提示词组装规则.md`。
-9. 生成或编辑后读取 `references/04-结果校验与重试.md` 和 `references/models/c01/C01-校验规则.md`。
+5. 若涉及面部/头部局部回填、侧脸/三分之二侧脸/回眸、头饰或耳机导致的头部比例变化、脸身肤色统一、耳位或下颌校正，读取：
+   - `references/models/c01/C01-独立头部结构强检测.md`
+   - `references/models/c01/C01-局部回填与头部结构校验.md`
+6. 若用户要生成肤色、肤质、妆容、发型、服装等参考图，读取 `references/models/c01/C01-预设参考图规则.md`。
+7. 若用户指定或需要选择光源、棚拍、户外、柔箱、阴影、反光强弱，读取 `references/05-光源预设.md`。
+8. 若涉及产品展示，读取 `references/02-产品展示规则.md`。
+9. 组装提示词前读取 `references/03-提示词组装规则.md`。
+10. 生成或编辑后读取 `references/04-结果校验与重试.md` 和 `references/models/c01/C01-校验规则.md`。
 
 ## 最高优先级
 

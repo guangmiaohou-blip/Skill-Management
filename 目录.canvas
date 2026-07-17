@@ -1,12 +1,12 @@
 {
 	"nodes":[
 		{"id":"550a6b101025482f","type":"group","x":60,"y":3285,"width":2660,"height":3320,"color":"6","label":"C01"},
+		{"id":"306d723e7951be73","type":"text","text":"","x":-3135,"y":3740,"width":250,"height":60},
 		{"id":"4fcd330b837d9424","type":"file","file":"Skill-Manner/designer-training/passive-mode/REVIEW_QUEUE.md","x":760,"y":-2355,"width":400,"height":4315},
 		{"id":"f418d14817b72c27","type":"file","file":"Skill-Manner/designer-training/START_HERE.md","x":1205,"y":-2355,"width":400,"height":4315},
 		{"id":"fe4be2d680712edf","type":"file","file":"Skill-Manner/framework/FRAMEWORK.md","x":2000,"y":-2355,"width":400,"height":4315},
 		{"id":"e60ca38e46c69b4a","type":"file","file":"Skill-Manner/framework/MD_REWRITE_STANDARD.md","x":2445,"y":-2355,"width":400,"height":4315},
 		{"id":"86f5930dd3a51ae9","type":"file","file":"commercial-model-card/references/models/c01/C01-参考图调用.md","x":1405,"y":3305,"width":400,"height":3280},
-		{"id":"dccab41e939361d2","type":"file","file":"commercial-model-card/references/models/c01/C01-可变外观层.md","x":1850,"y":3305,"width":400,"height":3280},
 		{"id":"4001e779a833148a","type":"file","file":"commercial-model-card/references/models/c01/C01-预设参考图规则.md","x":970,"y":3305,"width":400,"height":3280},
 		{"id":"e218c0b80765df42","type":"file","file":"commercial-model-card/references/models/c01/C01-身份锁定.md","x":80,"y":3305,"width":400,"height":3280},
 		{"id":"b064f4bf08465434","type":"file","file":"commercial-model-card/references/models/c01/C01-校验规则.md","x":525,"y":3305,"width":400,"height":3280},
@@ -52,7 +52,8 @@
 		{"id":"22b3dcbdd062a8c5","type":"file","file":"Skill-Manner/framework/STYLE_ROUTING.md","x":4225,"y":-2355,"width":400,"height":4315},
 		{"id":"28549440f965d2e5","type":"file","file":"commercial-model-card/assets/c01/人物俯视75度_头肩比2.5_目视前方.png","x":2280,"y":3308,"width":400,"height":400},
 		{"id":"926e970b5cde6be4","type":"file","file":"commercial-model-card/assets/c01/codex-clipboard-a23183a8-eef0-471e-9fc4-9c3e470e5282.png","x":2280,"y":3740,"width":400,"height":225},
-		{"id":"449889742d76fd5a","type":"file","file":"commercial-model-card/assets/c01/人物仰视75度_头肩比2.5_目视前方.png","x":2280,"y":4000,"width":400,"height":400}
+		{"id":"449889742d76fd5a","type":"file","file":"commercial-model-card/assets/c01/人物仰视75度_头肩比2.5_目视前方.png","x":2280,"y":4000,"width":400,"height":400},
+		{"id":"dccab41e939361d2","type":"file","file":"commercial-model-card/references/models/c01/C01-可变外观层.md","x":1840,"y":3305,"width":400,"height":3280}
 	],
 	"edges":[]
 }
