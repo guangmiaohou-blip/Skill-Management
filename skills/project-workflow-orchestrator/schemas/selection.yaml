@@ -1,0 +1,11 @@
+project_id: project-YYYYMMDD-0001
+selected_at: YYYY-MM-DDThh:mm:ss+08:00
+selected_by: 待填写
+selected_images:
+  - file: 05_selected/image-001.png
+    source_output: 04_temp_outputs/round-001/image-001.png
+    success: true
+    tags: []
+    reason: 待填写
+    linked_generation_record: 06_records/generation-record-001.yaml
+rejected_images: []

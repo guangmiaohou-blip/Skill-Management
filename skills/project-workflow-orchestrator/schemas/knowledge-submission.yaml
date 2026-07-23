@@ -1,0 +1,22 @@
+candidate_id: kc-YYYYMMDD-0001
+project_id: project-YYYYMMDD-0001
+status: pending-review
+image_type: 待分类
+auto_classification: []
+positive_prompt: 待生成
+negative_prompt: 待生成
+platform: 待填写
+model: 待填写
+recommended_parameters: {}
+reusable_tags: []
+operator: 待填写
+date: YYYY-MM-DD
+version: 0.1.0
+source_files: []
+used_skills: []
+success_reason: 待填写
+failure_rules: []
+review:
+  reviewer: 待填写
+  decision: pending
+  notes: []

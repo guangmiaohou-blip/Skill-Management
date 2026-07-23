@@ -1,0 +1,29 @@
+image_types:
+  - id: model-image
+    name: 模特图
+    description: 包含真人、虚拟人或局部人体展示的图片
+  - id: portrait
+    name: 人像图
+    description: 以人物头像、半身或写真为主体的图片
+  - id: product
+    name: 产品图
+    description: 以商品、物品或包装为主体的图片
+  - id: scene
+    name: 场景图
+    description: 以空间、环境、氛围为主体的图片
+  - id: style-reference
+    name: 风格参考图
+    description: 主要用于提取风格、色彩、光影或构图语言的图片
+  - id: mixed-reference
+    name: 混合参考图
+    description: 同时包含人物、产品、场景或风格参考的图片
+
+task_intents:
+  - id: reference-image-to-prompt
+    name: 逆向提示词
+  - id: reference-image-regeneration
+    name: 参考图再生成
+  - id: model-image-generation
+    name: 模特图生成
+  - id: image-analysis
+    name: 图片分析

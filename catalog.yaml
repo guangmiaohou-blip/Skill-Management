@@ -1,0 +1,61 @@
+version: 1
+layout: parallel-skills-and-cases
+
+skills:
+  - id: commercial-model-card
+    path: skills/commercial-model-card
+    case_groups: []
+  - id: model-image-generation
+    path: skills/model-image-generation
+    case_groups:
+      - cases/model-image-generation
+  - id: unny-korean-minimal-beauty
+    path: skills/unny-korean-minimal-beauty
+    case_groups:
+      - cases/model-image-generation/008-unny-korean-minimal-beauty
+      - cases/model-image-generation/010-unny-test
+  - id: pose-transfer
+    path: skills/pose-transfer
+    case_groups:
+      - cases/ecommerce-image-tools/001-pose-transfer
+  - id: ai-product-photography
+    path: skills/ai-product-photography
+    case_groups:
+      - cases/ecommerce-image-tools/002-ai-product-photography
+  - id: background-removal
+    path: skills/background-removal
+    case_groups:
+      - cases/ecommerce-image-tools/003-background-removal
+  - id: reference-image-to-prompt
+    path: skills/reference-image-to-prompt
+    case_groups: []
+  - id: reference-image-regeneration
+    path: skills/reference-image-regeneration
+    case_groups: []
+  - id: conversation-context-to-skill
+    path: skills/conversation-context-to-skill
+    case_groups: []
+  - id: project-workflow-orchestrator
+    path: skills/project-workflow-orchestrator
+    case_groups: []
+
+case_groups:
+  - id: model-image-generation
+    path: cases/model-image-generation
+    primary_skill: model-image-generation
+  - id: ecommerce-image-tools
+    path: cases/ecommerce-image-tools
+    skills:
+      - pose-transfer
+      - ai-product-photography
+      - background-removal
+  - id: design-review
+    path: cases/design-review
+    primary_skill: null
+
+shared:
+  knowledge: knowledge/image-generation
+  workflows:
+    - workflows/image-generation
+    - workflows/designer-training
+    - workflows/framework

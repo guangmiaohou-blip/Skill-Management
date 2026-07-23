@@ -1,0 +1,4 @@
+interface:
+  display_name: "商业模特卡"
+  short_description: "调用并锁定商业产品模特卡，先支持 C01 角色。"
+  default_prompt: "Use $commercial-model-card to call C01 for a consistent commercial product model image."
